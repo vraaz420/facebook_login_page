@@ -1,1 +1,217 @@
+<style>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+
+main {
+    height: 115vh;
+    width: 98vw;
+    position: relative;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+}
+
+
+.left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.fblogo {
+    flex: 0 0 89%;
+    text-align: left;
+    padding: 60px;
+    margin-bottom: 100px;
+
+}
+
+
+.fblogo img {
+    max-width: 310px;
+}
+
+.fblogo h2 {
+
+    font-weight: 400;
+    /* padding: 0 30px; */
+    line-height: 32px;
+    margin-left: 30px;
+    font-size: 29px;
+}
+
+.c-form {
+    flex: 0 0 40%;
+    text-align: center;
+
+}
+
+
+.c-form .container {
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+
+
+.c-form .container input,
+.c-form .container .login-btn {
+    width: 350px;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+
+.c-form .container input {
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    padding: 0 8px;
+    outline: none;
+}
+
+
+.c-form .container input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+
+.c-form .container .login-btn {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.c-form .container a {
+    display: block;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 0 20px;
+    border-bottom: 1px solid #dadde1;
+}
+
+
+.c-form .container .btn-new {
+    text-decoration: underline;
+}
+
+
+.c-form .container .account-btn {
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.c-form p {
+    font-size: 14px;
+    padding-top: 30px;
+}
+
+
+.c-form p a {
+    text-decoration: none;
+    color: #1c1e21;
+    font-weight: 600;
+}
+
+
+.c-form p a:hover {
+    text-decoration: underline;
+}
+.c-form .setPassword a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    height: 25vh;
+    background-color: #ffffff;
+    padding: 20px 160px;
+
+
+}
+
+
+.f-contents {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+
+footer ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+
+footer ol:first-child {
+    border-bottom: 1px solid #dddfe2;
+}
+
+footer ol li {
+    padding-right: 15px;
+    font-size: 12px;
+    color: #636466;
+
+
+}
+
+
+footer ol li a:hover {
+    text-decoration: underline;
+}
+
+footer ol li a {
+    text-decoration: none;
+    color: #7d7f83;
+}
+
+
+footer .small {
+    font-size: 15px;
+    padding-top: 8px;
+    color: #797a7e;
+}
+</style>
